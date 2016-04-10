@@ -1,6 +1,20 @@
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+
+/*rows styles*/
 .row-header {
 	margin: 0 auto;
 	padding: 0 auto;
+}
+
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0 auto;
+	background: #7986CB;
+	color: floralwhite;
 }
 
 .row-content {
@@ -15,13 +29,37 @@
 	margin: 0 auto;
 	padding: 20px 0 20px 0;
 }
+/******************************/
 
-.jumbotron {
-	padding: 70px 30px 70px 30px;
-	margin: 0 auto;
-	background: #7986CB;
-	color: floralwhite;
+/*responsive navbar*/
+.navbar-inverse {
+     background: #303F9F;
 }
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+/******************************/
 
 address {
 	font-size: 80%;
